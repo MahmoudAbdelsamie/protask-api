@@ -64,14 +64,6 @@ ProTask API is a comprehensive project management API built with Node.js, Expres
    npm start
    ```
 
-## Configuration
-
-The application can be configured using environment variables. Here are the most important ones:
-
-- `PORT`: The port on which the server will run.
-- `DATABASE_URL`: The connection string for your PostgreSQL database.
-- `JWT_SECRET`: The secret key used for signing JSON Web Tokens.
-
 ## Usage
 
 ### Starting the Server
