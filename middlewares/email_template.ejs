@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=.5" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <title>Invitation Email</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        .p1 {
+            font-weight: 500;
+            font-size: 30px;
+            color: #3a4855;
+        }
+
+        .num {
+            color: #bf4c26;
+            font-weight: bold;
+        }
+
+        .p2 {
+            font-size: 16px;
+            font-weight: 900;
+            margin: auto;
+            padding-left: 5px;
+            color: #3a4855;
+        }
+
+        #user {
+            font-size: 16px;
+            color: #757575;
+            font-weight: 600 !important;
+        }
+
+        .p3 {
+            font-size: 24px;
+            font-weight: 500;
+            margin: auto;
+            padding-left: 10px;
+            color: #000;
+        }
+
+        .w100{
+          width: 100px;
+          margin: auto;
+          position: relative;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .workspace {
+            width: 70px;
+            height: 70px;
+            display: block;
+            border-radius: 50%;
+            background-color: #0caca7;
+            position: absolute;
+            top: 92px;
+            left: 0;
+            color: #fff;
+            line-height: 70px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+           
+            margin-left: 94px !important;
+        }
+
+        .p4 {
+            font-size: 14px;
+            color: #3a4855;
+            font-weight: 500;
+            padding-bottom: 15px;
+            color: #3A4855;
+        }
+
+        .p5 {
+            font-size: 20px;
+            color: #3a4855;
+            font-weight: normal;
+        }
+
+        .expire {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            width: 60%;
+            margin: 1rem auto;
+            padding: 15px 18px;
+        }
+
+        .expire-icon {
+            display: block;
+            width: 20px;
+            height: 20px;
+            /* opacity: 0.5; */
+            border: solid 2px #888889;
+            border-radius: 49.5%;
+            font-size: 14px;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 15px;
+            line-height: 20px;
+        }
+
+        .conversion {
+            font-weight: 700;
+        }
+
+        .p6 {
+            font-size: 14px;
+            color: #7e858e;
+        
+        }
+
+        .p7 {
+            font-size: 13px;
+            font-weight: 500;
+            color: #141313;
+            width: 95%;
+            margin: auto;
+        }
+
+        .ground {
+            width: 90%;
+            table-layout: fixed;
+            background: #ffffff;
+            box-sizing: border-box;
+            border: 1.5px solid rgba(0, 0, 0, 0.05);
+            margin: auto;
+            padding: 20px;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            font-size: 16px;
+            width: 60%;
+            margin: auto;
+            background: #0caca7;
+            color: #ffffff;
+            font-weight: 600;
+            border-radius: 6px;
+            padding: 15px;
+        }
+
+       
+
+        .center {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+          
+            flex-direction: column !important;
+        }
+
+      
+
+        .absolute {
+            position: absolute;
+        }
+
+        .padding-y-20 {
+            padding: 20px 0;
+        }
+
+        .w-90 {
+            width: 90%;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .m-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .my-15{
+          margin: 15px auto;
+        }
+
+        .py-20 {
+            padding: 20px 0;
+        }
+
+        .mt-15{
+            margin-top: 15px;
+        }
+        .vt-middle{
+            vertical-align: middle;
+        }
+        .py-10 {
+            padding: 10px 0;
+        }
+
+        .mb-0 {
+            margin-bottom: 0;
+        }
+
+        .mt-20 {
+            margin-top: 20px;
+        }
+
+        .m-0 {
+            margin: 0;
+        }
+
+        .p-20 {
+            padding: 20px;
+        }
+
+        .pt-20{
+          padding-top: 20px;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .p-config {
+            margin-bottom: 0;
+        }
+
+        .py-15 {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .px-15 {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .p3-head {
+            font-size: 24px;
+            font-weight: 500;
+            margin-left: 10px;
+           
+            color: #000;
+        }
+
+        .pt-5{
+            padding-top: 5px;
+        }
+
+        .m-auto {
+            margin: auto;
+        }
+
+        .w-80 {
+            width: 75%;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .border-bottom {
+            border-bottom: 1px solid #D7DFE9;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .font-sm {
+            margin-top: 1em;
+            font-size: 13px;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .center-column {
+            flex-direction: row;
+        }
+
+        .accept-button {
+            width: 100%;
+        }
+        .d-block{
+        display: block;
+      }
+
+        @media only screen and (max-width: 600px) {
+            .expire {
+                width: 90%;
+            }
+            .center{
+              
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+          
+            flex-direction: column !important;
+       
+            }
+
+            button{
+              width: 80%;
+              margin: auto;
+            }
+
+            .accept-button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 100%">
+        <div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="ground">
+                        <table class="table-responsive" style="width: 100%" width="100%">
+                            <tr>
+                                <td>
+                                    <p class="p1 p-config">Invitation</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="12" class="w-100" style="background-color: #f9f9f9"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="flex w-100 border-bottom  py-10">
+                                        <a href="#" class="mt-15">
+                                            <img src="<%= logo %>" width="40" alt="protask" />
+                                        </a>
+                                        <p class="p3-head">ProTask</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="center w-100">
+                                    <div class="py-15">
+                                        <a href="#" class="w-100 center">
+                                            <img src="<%= icon %>" width="80" alt="protask" class="d-block my-15 m-auto" />
+
+
+                                        </a>
+
+
+                                        <p class="p-config p4 w-100 pt-20 text-center m-auto">
+                                            Dear Username !
+                                        </p>
+
+                                        <p class="p5 p-config w-100 m-auto text-center ">
+                                           <span class="font-bold"> <%= username %></span> 
+                                                <span>Invited You . Join <%= workspace %>
+                                                </span>
+                                                <span class="font-bold"> ProTask team as <%= role %>.</span> 
+                                        </p>
+
+                                        <p class="p6 p-config py-10 text-center">
+                                            Let us know if you have any questions.<br/>
+                                            <a style="
+                                    font-weight: 500;
+                                    text-decoration: underline;
+                                    color: #3a4855;
+                                    padding-top: 5px;
+                                  ">support@protask.com</a>
+                                        </p>
+
+                                        <div class="expire">
+                                            <span class="expire-icon pt-5">
+                                               i
+                                            </span>
+                                            <p class="p7 p-config m-auto text-center">
+                                                The invitation will expire in 2 Days. If
+                                                you haven’t received the email after a few
+                                                minutes, please check your spam folder.
+                                            </p>
+                                        </div>
+
+                                        <a href="<%= hashedEmail %>"  class=" center w-100 ">
+                                            <button type="button" class="m-auto">
+                                                Accept Invitation
+                                            </button>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=.5" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Invitation Email</title>
+    <style>
+      body {
+        background-color: #ffffff;
+        font-family: "Montserrat", sans-serif;
+      }
+      table {
+        border-spacing: 0;
+      }
+      .py-10{
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .p1 {
+        font-weight: 500;
+        font-size: 30px;
+        color: #3a4855;
+      }
+      .py-15{
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
+      .my-15{
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      .p3-head{
+        font-size: 24px;
+        font-weight: 500;
+        padding-left: 10px;
+        color: #000;
+      }
+
+      .mt-15{
+        margin-top: 15px;
+      }
+      .m-auto{
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .w-80{
+        width: 75%;
+      }
+      .w-100{
+        width: 100%;
+      }
+
+      .flex{
+        display: flex;
+        align-items: center;
+      }
+
+      .border-bottom{
+        border-bottom: 1px solid #D7DFE9;
+      }
+
+      .center {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        /* place-content: center; */
+      }
+
+      .center-column{
+        flex-direction: column !important;
+      }
+
+      .ground {
+        width: 90%;
+        table-layout: fixed;
+        background: #ffffff;
+        box-sizing: border-box;
+        border: 1.5px solid rgba(0, 0, 0, 0.05);
+        margin: auto;
+        padding: 20px;
+      }
+
+      .text-center{
+        text-align: center;
+      }
+
+      .d-block{
+        display: block;
+      }
+
+      .font-sm{
+        margin-top: 1em;
+        font-size: 13px;
+        color: #3A4855;
+        margin: auto;
+      }
+      
+
+      .font-bold{
+        font-weight: bold;
+      }
+
+      .p-config{
+        margin-bottom: 0;
+        color: #3A4855;
+      }
+
+      button {
+        border: none;
+        outline: none;
+        font-size: 16px;
+        width: 100%;
+        margin-top: 2rem;
+        background: #0caca7;
+        color: #ffffff;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="width: 100%">
+      <div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="ground">
+              <table class="table-responsive" style="width: 100%" width="100%">
+                <tr>
+                  <td>
+                    <p class="p1 p-config">Reset Password</p>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td height="12" style="background-color: #f9f9f9"></td>
+                </tr>
+              
+               
+                <tr>
+                    <td>
+                        <div class="flex w-100 border-bottom py-10">
+                      <a href="#" class="mt-15">
+                        <img src="<%= logo %>" width="40" alt="PMCamp" />
+                      </a>
+                      <p class="p3-head">Pro Task</p>
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="w-100">
+                      <a href="#" class="w-100 m-auto text-center ">
+                        <img src="<%= icon %>" width="80" alt="PMCamp" class="d-block my-15 m-auto" />
+                      </a>
+                            <span class="d-block w-100 m-auto text-center font-sm my-15"  style="color: #3A4855;">Reset Password</span>
+                      <p class="m-auto w-100 text-center p-config my-15"  style="color: #3A4855;">Click on the below action to continue in the<br/><span class="font-bold">Reset Password</span> process.</p>
+                      <a href="<%= hash %>" class="w-100 m-auto text-center my-15">
+                        <button type="button">
+                          Reset password
+                        </button>
+                      </a>
+                           
+                        </div>
+                      
+                    </td>
+                  </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
